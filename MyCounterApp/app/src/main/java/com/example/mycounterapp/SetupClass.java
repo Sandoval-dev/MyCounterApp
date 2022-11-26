@@ -22,7 +22,7 @@ public class SetupClass {
 
     public SetupClass(Context context) {
         this.context=context;
-        sharedPreferences=context.getSharedPreferences("Setup",Context.MODE_PRIVATE);
+        sharedPreferences=context.getSharedPreferences("setup",Context.MODE_PRIVATE);
         editor=sharedPreferences.edit();
 
     }
